@@ -1,0 +1,103 @@
+[
+  {
+    type: "button"
+    icon: "arrows-alt"
+    iconset: "fa"
+    callback: "window:toggle-full-screen"
+  }
+  {
+    type: "url"
+    icon: "chrome"
+    iconset: "fa"
+    url: "http://localhost:9000"
+  }
+  {
+    type: "url"
+    icon: "github"
+    iconset: "fa"
+    url: "http://github.com"
+    tooltip: "Github Page"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "url"
+    icon: "bitbucket"
+    iconset: "fa"
+    url: "http://bitbucket.com"
+    tooltip: "Bitbucket"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "search"
+    iconset: "fa"
+    callback: "fuzzy-finder:toggle-file-finder"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "url"
+    icon: "css3"
+    iconset: "fa"
+    tooltip: "Css Tricks"
+    url: "http://css-tricks.com"
+  }
+  {
+    type: "url"
+    icon: "question-circle"
+    iconset: "fa"
+    tooltip: "Can I Use"
+    url: "http://caniuse.com"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "columns"
+    iconset: "fa"
+    callback: "pane:split-right"
+    tooltip: "split pane right"
+  }
+  {
+    type: "button"
+    icon: "circuit-board"
+    callback: "git-diff:toggle-diff-list"
+    style:
+      color: "#FA4F28"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "wrench"
+    iconset: "fa"
+    callback: "settings-view:open"
+    tooltip: "Settings"
+  }
+  {
+    type: "button"
+    icon: "code"
+    iconset: "fa"
+    callback: "application:open-your-stylesheet"
+  }
+  {
+    type: "button"
+    icon: "markdown"
+    callback: "markdown-preview:toggle"
+    disable: "!markdown"
+  }
+  {
+    type: "button"
+    icon: "refresh"
+    iconset: "fa"
+    tooltip: "Reload Window"
+    callback: "window:reload"
+  }
+]
